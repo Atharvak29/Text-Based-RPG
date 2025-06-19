@@ -1,5 +1,4 @@
 # 🎮 Game Title: “Cursed Caverns: The Trial of Valor”
-Story Conversation with ChatGpt : https://chatgpt.com/share/6851c0be-99f4-8005-aae3-a0798db2f43e
 ---
 
 ## 🧙 Story Premise
