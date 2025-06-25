@@ -19,7 +19,7 @@ Your goal: **Defeat the ancient cursed spirit and lift the darkness.**
     * Wisdom Trial: Solve a riddle
     * Morality Trial: Make a difficult choice
 5.  **Final Boss Fight**
-6.  **Ending** (based on choices)
+6.  **Ending**
 
 ---
 
@@ -83,7 +83,7 @@ Your goal: **Defeat the ancient cursed spirit and lift the darkness.**
 
 ---
 
-## 🔧 C# Concepts You'll Practice
+## 🔧 C# Concepts I'll Practice
 
 * `class Player`, `class Enemy`
 * `switch-case` and `if-else`
@@ -92,6 +92,30 @@ Your goal: **Defeat the ancient cursed spirit and lift the darkness.**
 * Random numbers (for damage, dodge)
 * Method structuring for trials
 * Object-oriented structure (inheritance if you expand)
+
+---
+
+### 🧱 Battle improvement
+You already have:
+*Turn-based flow: Player and Goblin alternate turns
+*Simple attack option
+*Health tracking
+*Win/Lose condition
+
+### 🚀 Enhancements to Add (Step-by-Step)
+✅ Phase 1: Core Combat Depth
+--> Random damage within a range
+--> Critical hit chance
+--> Enemy behavior variation (e.g., random attack vs heavy attack)
+
+✅ Phase 2: Player Options
+--> Add multiple player actions: e.g., Attack, Defend, Heal
+--> Add mana + special attack
+
+✅ Phase 3: Visual. sound & Flow Enhancements
+--> Use Thread.Sleep() to create drama
+--> Use colored output with Console.ForegroundColor
+--> Add sound clips after actions
 
 ---
 

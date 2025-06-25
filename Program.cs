@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
-using MyApplication;
+// using MyApplication;
+using RPG.Game;
+using RPG.Paths;
 
 namespace Game
 {

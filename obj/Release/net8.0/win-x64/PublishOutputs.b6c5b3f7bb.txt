@@ -1,0 +1,2 @@
+C:\Users\athud\Code\C#\RPG\bin\Release\net8.0\win-x64\publish\RPG.pdb
+C:\Users\athud\Code\C#\RPG\bin\Release\net8.0\win-x64\publish\RPG.exe
