@@ -65,13 +65,14 @@ The villagers of Eldwyn welcome you as a hero.
 Press any key to end the game......
 "
                     );
+                    Console.ReadLine();
                     player.BB = true;
                     // Console.WriteLine($"\n\nYour HP: {player.Health} | Boss HP: {Boss_Health}");
-                    exit();
+                    Environment.Exit(0);
                 }
 
                 Console.WriteLine($"\nBoss's Turn:");
-                player.Health = player.Health - Boss_Stength;
+                player.Health = player.Health - Boss_strength;
                 Console.WriteLine($"Your HP: {player.Health} | Boss HP: {Boss_Health}");
 
                 if (player.Health <= 0)
@@ -83,8 +84,9 @@ Press any key to end the game......
                     );
 
                     // Console.WriteLine($"Your HP: {player.Health} | Boss HP: {Boss_Health}");
+                    Console.ReadLine();
                     player.BB = true;
-                    exit();
+                    Environment.Exit(0);
                 }
 
                 Console.WriteLine("\n--- Next Round ---\n");
