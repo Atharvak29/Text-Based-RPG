@@ -60,6 +60,7 @@ Press any key to return to the central chamber...
                         );
                         player.POM = true;
                         Console.ReadKey();
+                        Console.Clear();
                         return;
                     }
                     else if (option_chossen == 2)
@@ -78,6 +79,7 @@ Press any key to return to the central chamber...
                         );
                         player.POM = true;
                         Console.ReadKey();
+                        Console.Clear();
                         return;
                     }
                 }

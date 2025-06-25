@@ -94,13 +94,14 @@ namespace Game
                     PathOfMorality morality = new PathOfMorality();
                     morality.Morality(player);
                 }
-            }
 
-            if (player.POF == true && player.POW == true && Player.POM == true)
-            {
-                // Console.WriteLine("Start boss battle");
-                BossBattle bb = new BossBattle();
-                bb.Boss(player);
+                if (player.POF == true && player.POW == true && player.POM == true)
+                {
+                    Console.Clear();
+                    // Console.WriteLine("Start boss battle");
+                    BossBattle bb = new BossBattle();
+                    bb.Boss(player);
+                }
             }
         }
     }

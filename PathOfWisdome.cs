@@ -28,7 +28,7 @@ I have no body, but I come alive with the wind. What am I?""
 Your answer: ______"
             );
 
-            string ans = Console.ReadLine().ToLower();
+            string ans = (Console.ReadLine() ?? "").ToLower();
 
             if (ans == "echo")
             {
