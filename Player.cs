@@ -10,6 +10,8 @@ namespace Game
         public int Strength;
 
         public bool POF = false; //default
+        public bool POW = false;
+        public bool POM = false;
+        public bool BB = false;
     }
-
 }

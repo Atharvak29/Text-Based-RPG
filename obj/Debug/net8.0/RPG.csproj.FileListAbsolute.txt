@@ -12,3 +12,4 @@ C:\Users\athud\Code\C#\RPG\obj\Debug\net8.0\refint\RPG.dll
 C:\Users\athud\Code\C#\RPG\obj\Debug\net8.0\RPG.pdb
 C:\Users\athud\Code\C#\RPG\obj\Debug\net8.0\RPG.genruntimeconfig.cache
 C:\Users\athud\Code\C#\RPG\obj\Debug\net8.0\ref\RPG.dll
+C:\Users\athud\Code\C#\RPG\obj\Debug\net8.0\RPG.sourcelink.json

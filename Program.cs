@@ -8,7 +8,6 @@ namespace Game
     {
         public static void Main(string[] args)
         {
-
             Intro intro = new Intro();
             intro.ShowIntro();
 
@@ -17,12 +16,14 @@ namespace Game
             int heroClass;
             while (true)
             {
-
                 intro.heroClass();
 
                 string? input = Console.ReadLine();
 
-                if (int.TryParse(input, out heroClass) && (heroClass == 1 || heroClass == 2 || heroClass == 3))
+                if (
+                    int.TryParse(input, out heroClass)
+                    && (heroClass == 1 || heroClass == 2 || heroClass == 3)
+                )
                 {
                     player.Class = heroClass;
                     break; // valid input
@@ -61,7 +62,10 @@ namespace Game
 
                     string? input = Console.ReadLine();
 
-                    if (int.TryParse(input, out Enterence) && (Enterence == 1 || Enterence == 2 || Enterence == 3))
+                    if (
+                        int.TryParse(input, out Enterence)
+                        && (Enterence == 1 || Enterence == 2 || Enterence == 3)
+                    )
                     {
                         player.Enterence = Enterence;
                         break; // valid input
@@ -82,12 +86,21 @@ namespace Game
                 }
                 if (player.Enterence == 2) //Path of Knowledge (Wisdom Trial)
                 {
-
+                    PathOfWisdome Wisdom = new PathOfWisdome();
+                    Wisdom.Wisdom(player);
                 }
                 if (player.Enterence == 3) //Path of Sacrifice (Morality Trial)
                 {
-
+                    PathOfMorality morality = new PathOfMorality();
+                    morality.Morality(player);
                 }
+            }
+
+            if (player.POF == true && player.POW == true && Player.POM == true)
+            {
+                // Console.WriteLine("Start boss battle");
+                BossBattle bb = new BossBattle();
+                bb.Boss(player);
             }
         }
     }
